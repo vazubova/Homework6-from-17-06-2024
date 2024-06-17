@@ -33,7 +33,7 @@ public class Main {
         for (int m = 1; m <= 12; m++) {
 
             whole = whole + start;
-            System.out.println("Месяц " + m + " сумма накоплений равна" + whole + " рублей");
+            System.out.println("Месяц " + m + " сумма накоплений равна " + whole + " рублей");
 
         }
 
@@ -43,8 +43,14 @@ public class Main {
 
             inBank = inBank + inBank / 100;
             inBank = inBank + first;
-            System.out.println("Месяц " + t + " сумма накоплений равна" + inBank + " рублей");
+            System.out.println("Месяц " + t + " сумма накоплений равна " + inBank + " рублей");
 
+
+        }
+
+        for (int r = 1; r >= 1 && r <= 10; r++) {
+
+            System.out.println("2*" + r + "=" + 2 * r);
 
         }
     }
