@@ -42,8 +42,9 @@ public class Main {
         for (int t = 1; t <= 12; t++) {
 
             System.out.println("Месяц " + t + " сумма накоплений равна " + inBank + " рублей");
-            inBank = inBank + inBank / 100;
             inBank = inBank + first;
+            inBank = inBank + inBank / 100;
+
 
 
         }
