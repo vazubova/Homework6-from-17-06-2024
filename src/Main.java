@@ -19,5 +19,9 @@ public class Main {
         for (int h = 1904; h<=2096; h=h+4) {
             System.out.println(h + " год является високосным");
         }
+
+        for (int k=7; k<=98; k=k+7) {
+            System.out.println("Все числа последовательности от 7 до 98 с разницей +7: " + k);
+        }
     }
 }
