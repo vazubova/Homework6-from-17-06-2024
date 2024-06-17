@@ -23,5 +23,9 @@ public class Main {
         for (int k=7; k<=98; k=k+7) {
             System.out.println("Все числа последовательности от 7 до 98 с разницей +7: " + k);
         }
+
+        for (int j = 1; j<=512; j=j*2) {
+            System.out.println("Последовательность чисел от 1 до 512 с умножением на 2: " + j);
+        }
     }
 }
