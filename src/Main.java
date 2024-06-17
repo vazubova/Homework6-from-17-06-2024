@@ -12,7 +12,7 @@ public class Main {
         for (int s = 0; s <= 17 && s >= 0; s = s + 2) {
             System.out.println("Чётные числа от 0 до 17: " + s);
         }
-        for (int d = 10; d <= 10 && d >= -10; d = d - 1) {
+        for (int d = 10; d >= -10; d = d - 1) {
             System.out.println("Числа от 10 до -10: " + d);
         }
 
@@ -41,9 +41,9 @@ public class Main {
         int first = 29000;
         for (int t = 1; t <= 12; t++) {
 
+            System.out.println("Месяц " + t + " сумма накоплений равна " + inBank + " рублей");
             inBank = inBank + inBank / 100;
             inBank = inBank + first;
-            System.out.println("Месяц " + t + " сумма накоплений равна " + inBank + " рублей");
 
 
         }
