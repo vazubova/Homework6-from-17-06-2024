@@ -27,5 +27,16 @@ public class Main {
         for (int j = 1; j<=512; j=j*2) {
             System.out.println("Последовательность чисел от 1 до 512 с умножением на 2: " + j);
         }
+
+        int whole = 0;
+        int start = 29000;
+        for (int m=1; m<=12; m++) {
+
+            whole = whole + start;
+            System.out.println("Месяц " + m + " сумма накоплений равна" + whole + " рублей");
+
+        }
+
+
     }
 }
