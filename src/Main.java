@@ -8,5 +8,12 @@ public class Main {
         for (int f=10; f>=1; f=f-1) {
             System.out.println("Числа от 10 до 1: " + f);
         }
+
+        for (int s = 0; s<=17 && s>=0; s=s+2) {
+            System.out.println("Чётные числа от 0 до 17: " + s);
+        }
+        for (int d = 10; d<=10 && d>=-10; d=d-1) {
+            System.out.println("Числа от 10 до -10: " + d);
+        }
     }
 }
