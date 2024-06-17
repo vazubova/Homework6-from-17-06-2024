@@ -15,5 +15,9 @@ public class Main {
         for (int d = 10; d<=10 && d>=-10; d=d-1) {
             System.out.println("Числа от 10 до -10: " + d);
         }
+
+        for (int h = 1904; h<=2096; h=h+4) {
+            System.out.println(h + " год является високосным");
+        }
     }
 }
